@@ -1,37 +1,30 @@
-body{
+body
+{
     text-align: center;
     background: linear-gradient( #87CEEB 0%,#00FFBF 100%);
 }
-html
+
+img
 {
-    scroll-behavior: smooth;
+  border-radius:50%;
+  width:100px;
 }
 
-img{
-  width:300;
-  height:300;
-    border-radius: 50%;
-    
-}
-#myname{
-   font-family: 'Courgette', cursive;
-}
-#welcome{
-     padding:70px;
-    text-align:center:
-}
+
 h1{
-  
   font-size:20px;
 }
+
+
 p{
   font-size:18px;
-  color:#000000;
+  color:#6A1B9A;
+  
     
 }
 h2{
   font-size:20px;
-  color:#003487;
+  color:#000000;
 }
 .line{
     height: 6px;
@@ -41,55 +34,39 @@ h2{
 }
 #bio{
     padding:20px;
-    font-size:42;
-    background:pink;
+    font-size:18;
+    text-align:center;
 }
-.menu{
-   list-style: none;
-    font-family:cursive;
-   float:right;
-    top:10px;
-    right:30px;
-    cursor: pointer;
-    color:black;
+
+.profile {
+    height:150px;
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
 }
-.menu a{
-    color:black !important;
+
+img {
+  height:300px;
+    width:300px;
 }
 
 
-.link{
-    color:crimson;
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.links {
     display: inline;
-    padding-top:5px;
-    padding-left:9px;
-    padding-right:9px;
-    padding-bottom: 5px;
-}
-   .link:hover{
-    background-color:beige;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
 }
 
-#My work a{
-    font-size: :30px;
-    
-}
-#References a{
-    font-size: :30px;
-    
-}
-
-.button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-a
-{
-  text-decoration:none;
+#writing a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
 }
