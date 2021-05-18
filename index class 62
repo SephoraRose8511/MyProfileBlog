@@ -1,0 +1,80 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>My Photo Gallery</body>
+    <br>
+    <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0FUVQTpopK14zHDJ7Kgv3ns4O-o0kifv-w&usqp=CAU">
+    <h2>Grid Gallery</h2>
+    <div class="books_grid">
+        <img src="https://m.media-amazon.com/images/I/51Yopm6Tt3L.jpg">
+        <img src="https://m.media-amazon.com/images/I/51QoGdHKstL.jpg">
+        <img src="https://m.media-amazon.com/images/I/51iTS8VtoML.jpg">
+        <img src="https://static.wikia.nocookie.net/theselection/images/a/a5/The-Heir_612x925.jpg/revision/latest?cb=20141023153607">
+        <img src="https://m.media-amazon.com/images/I/61ApS7u3VgL.jpg">
+        <img src="https://img1.od-cdn.com/ImageType-100/1191-1/%7BB0DA0B30-C687-44B7-ACBB-0FE71896B258%7DImg100.jpg">
+        <img src="https://n3.sdlcdn.com/imgs/d/y/e/Sky-Jumpers-Book-2-The-SDL743596052-1-9ca7b.jpg">        
+    </div>
+    <h2>Sliding Gallery</h2>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel inner">
+            <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://m.media-amazon.com/images/I/51Yopm6Tt3L.jpg">
+                <div class="carousel content">
+                <p>The Selection</p>
+                </div> 
+                    </center>
+            </div> 
+           <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://m.media-amazon.com/images/I/51QoGdHKstL.jpg">
+                <div class="carousel content">
+                <p>The Elite</p>
+                </div> 
+                    </center>
+            <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://m.media-amazon.com/images/I/51iTS8VtoML.jpg">
+                <div class="carousel content">
+                <p>The One</p>
+                </div> 
+                    </center>
+                <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://static.wikia.nocookie.net/theselection/images/a/a5/The-Heir_612x925.jpg/revision/latest?cb=20141023153607">
+                <div class="carousel content">
+                <p>The Heir</p>
+                </div> 
+                    </center>
+                    <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://m.media-amazon.com/images/I/61ApS7u3VgL.jpg">
+                <div class="carousel content">
+                <p>The Crown</p>
+                </div> 
+                    </center>
+                        <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://img1.od-cdn.com/ImageType-100/1191-1/%7BB0DA0B30-C687-44B7-ACBB-0FE71896B258%7DImg100.jpg">
+                <div class="carousel content">
+                <p>Sky Jumpers</p>
+                </div> 
+                    </center>
+                            <div class="item active">
+                <center>
+                <img class="img-responsive" src="https://n3.sdlcdn.com/imgs/d/y/e/Sky-Jumpers-Book-2-The-SDL743596052-1-9ca7b.jpg">
+                <div class="carousel content">
+                <p>Sky Jumpers:Forbidden Flats</p>
+                </div> 
+                    </center>
+                        </div> 
+                            <a class="left carousel-control" href="#mycarousel" dataslide="prev">
+                            <span class="glyphicon glyphicon-chevron-left">
+                                </span>
+                            </a>
+                            <a class="right carousel-control" href="#mycarousel" dataslide="next">
+                            <span class="glyphicon glyphicon-chevron-right">
+                                </span>
+                            </a>
+        </div>    
+    </div>
+</html>
