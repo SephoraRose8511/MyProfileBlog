@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>School Website</title>
+        
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="htpps://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+  
+    <body>
+        
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">St. Mary's School</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#campuslife">Campus life</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#whatsnew">What's New </a></li>
+                    <li><a href="#Alumni">Alumni</a></li>
+                    <li> <a href="#contactus" >Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="annoucment">
+            <marquee id="marqeeStyle" onmousover="this.stop();" onmouseout="this.start();">
+                    *** Feel free to ask queries on info@smspune.com***
+            </marquee>
+        </div>
+            
+        <div class="container">
+            <iframe class="responsive-iframe" src="https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/08/6d2b927b2608d787368edae70e90fa9c.jpeg"></iframe>
+        </div>
+        <div class="container">
+            <div class="page-header" id="campuslife">
+                <h2 class="text-captilize">Campus Life</h2>
+                <div class="row">
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="images/campus.jpg">
+                        <h4 class="text-captilize"><kbd>School Campus</kbd></h4>
+                        <hr>
+                        <h5 clas="text-succes text-left text-captilize" >Was established in 1866</h5>
+                        <p class="text-muted text-left">Established in 1866, St. Mary’s School, Pune is proud of its long history and academic tradition.The School was founded on November 5th 1866 by Archdeacon Leigh Lye and Judge Lloyd. A circular was sent out to the residents of Poona and a headmistress was engaged. From 1866 to 1878, there was little progress. In 1878, the Sisters from the Community of St.Mary the Virgin in Wantage, Oxfordshire, England, who had come to Pune the previous year, took over the management. From 1878 to 1977, the School was run by the Sisters.n June 1976, Mrs. Elizabeth Matthew who had been a senior English teacher with the School since 1973 was appointed Vice Principal. The following year, the Sisters withdrew from the School and Mrs. Elizabeth Matthew took over as Principal. </p>
+                    </div>
+                </div>
+                               
+                <div class="row">
+                    <div class="page-header" id="achievements" >
+                        <h2 class="text-capitalize" >school achievements</h2>
+                    </div>
+                    <div class="bg-primary movie_head" data-toggle="collaspe" data-target="#school_achievement1">
+                             High rank in  Maharashtra and India<i class="fa fa-sort-desc"></i>
+                    </div>
+                    
+                    <div id="school_achievement1" class="collaspe">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achivementsID">
+                            <img src="images/DI-Logo-Blog-Header-1.jpg" class="img-responsive img-thumbnail">
+                        </div>
+                        <div class="col-lg-3 col-md-9 col-sm-9 col-xs-12 movie_text">
+                            <h5 class="text-success text-left text-capitalize">St. Mary's India Rank is 7 out of 1914 CISCE Schools in India and Maharashtra Rank is 4 out of 170 CISCE Schools in Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        <div class="row">
+                    <div class="page-header" id="whatsnew" >
+                        <h2 class="text-capitalize" >What's new </h2>
+                        <ul class="list-group">
+                        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 envoiroment_li">
+                            <h4>Online classes</h4>
+                            <img src="images/library.jpg" class="img-responsive img-thumbnail">
+                            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                            After a few days of anxiety, the staff rose to the occasion by chartering a plan of action. They had opted for the Microsoft A3 programme a few months earlier, thus, they began their training. They were trained to conduct online classes during the non-existent ‘Summer holidays’. After many experimentations and a few setbacks, the teachers were finally ready to take on the challenge of virtual classes. It has been a unique year, having to deal with long distance learning and online exams, but the teachers coped really well with the changing circumstances and made it through. As we begin another academic year, we pray everything goes as well as it went last year and that we may be able to go back to physical classes soon.</p>
+                            </li>
+                        </ul>
+        
+        </div>
+    
+        <section id="contactus">
+                <h2>Contact us</h2>
+                Email Id : &nbsp;<a href="info@smspune.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                <br>
+                <br>
+                <br>
+                Location:<i class="fa fa-map-marker" aria-hidden="true"></i>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15015.43462239461!2d73.8851059!3d18.510067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x475865db085ff0b1!2sSt.%20Mary%E2%80%99s%20School!5e1!3m2!1sen!2sin!4v1622907145966!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>    
+            
+        
+        
+        
+        </body>
+        
+        
+   </html>
