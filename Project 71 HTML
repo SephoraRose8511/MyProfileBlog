@@ -1,0 +1,119 @@
+html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>My School</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar-inverse my_nav_bar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">My school</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#welcome">HOME</a></li>
+        <li><a href="#videos">VIDEOS</a></li>
+        <li><a href="#facilities">FACILITIES</a></li>
+        <li><a href="#alumini"> ALUMINI </a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="welcome">
+    <h1>
+      <br>
+      <span id="name">St Mary's School</span>
+    </h1>
+    <h2> High school and Juniour collage</h2>
+  </section>
+
+  <section id="bio">
+    <h1>Hi!</h1>
+    <div class="line"></div>
+    <p>Established in 1866, St. Mary’s School, Pune is proud of its long history and academic tradition. At the same time, it is unique in the way it has kept abreast with the new trends in education and has responded to the changing needs of children. St. Mary’s has several major strengths: a solid academic programme, a child centered approach and an unbeatable ambience. Christian principles form its foundation and it is registered as a minority school. However admissions are open to children of all communities.The School was founded on November 5th 1866 by Archdeacon Leigh Lye and Judge Lloyd. A circular was sent out to the residents of Poona and a headmistress was engaged. From 1866 to 1878, there was little progress. In 1878, the Sisters from the Community of St.Mary the Virgin in Wantage, Oxfordshire, England, who had come to Pune the previous year, took over the management. From 1878 to 1977, the School was run by the Sisters. In their hands the history of the School was one of continuous progress and growth.In June 1976, Mrs. Elizabeth Matthew who had been a senior English teacher with the School since 1973 was appointed Vice Principal. The following year, the Sisters withdrew from the School and Mrs. Elizabeth Matthew took over as Principal.
+
+     St mary's has classes from Jr KG to Grade 12.</p>
+  </section>
+
+  <hr>
+  <section id="videos">
+    <h1>Reference image </h1>
+    <div class="line"></div>
+    <br>
+    <iframe src="data:image/jpeg;base64,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"></iframe>
+    
+      <hr>
+
+  <section id="facilities">
+    <h1 style="f">Facilities</h1>
+    <div class="line"></div>
+    <h3>There are many facilities available at St Mary's .Some of them are:
+      <br>
+      1. Large and neture friendly campus
+      <br>
+      2.Over 21,000 titles of books covering areas like storybooks, reference books, periodicals, magazines, etc in school library.
+      <br>
+      4. 3 Computer Labs and 200+ Computers.
+      <br>
+      5.4 Science Labs with the latest equipment.
+    </h3>
+  </section>
+  <hr>
+
+  <section id="alumini">
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class="text-capitalize ">Alumini</h2>
+    </div>
+<a href="https://www.smspune.com/#"><b>Know More About our Alumni</b></a>
+      <section id="contact">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15133.666391074885!2d73.8851059!3d18.510067!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x475865db085ff0b1!2sSt.%20Mary%E2%80%99s%20School!5e0!3m2!1sen!2sin!4v1623424076076!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <a href="mailto:my@gmail.com?Subject=Hi">
+          <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;avnijain.geek@gmail.com</h5>
+        </a>
+
+        <a href="#">
+          <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+        </a>
+      </div>
+
+      <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <form>
+          <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required>
+          <br><br>
+          <span>Comment : </span><input type="text" name="comment" required>
+          <br><br>
+          <input type="submit" value="submit" class="btn btn-success">
+        </form>
+      </div>
+
+    </section>
+
+</body>
+
+</html>
